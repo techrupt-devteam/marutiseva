@@ -54,9 +54,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
            <div class="col-lg-3 col-md-3 text-right">
               <div class="top-bar-social-icon ml-auto">
                  <ul>
-                    <li><a href="#"><i class="mdi mdi-facebook"></i></a></li>
-                    <li><a href="#"><i class="mdi mdi-twitter"></i></a></li>
-                    <li><a href="#"><i class="mdi mdi-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/sevamaruti/?fref=ts" target="_blank"><i class="mdi mdi-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/sevaauto" target="_blank"><i class="mdi mdi-twitter"></i></a></li>
+                    <li><a  href="https://www.instagram.com/seva_automotive/" target="_blank"><i class="mdi mdi-instagram"></i></a></li>
                  </ul>
               </div> <!-- Social End -->
            </div><!-- Col End -->
@@ -125,27 +125,43 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <h3>Alto</h3>
                   </a>
                 </li>
-                <li><a href="wagonr.php">Wagon R</a></li>
-                <li><a href="celerio.php">Celerio</a></li>
-                <li><a href="celerio-x.php">Celerio X</a></li>
+                <li><a href="wagonr.php">
+                  <img src="assets/images/wagonr/2-model-BLUE.png"/> 
+                  <h3>Wagon R</h3>
+                  </a></li>
+                <li><a href="celerio.php">  <img src="assets/images/celerio/orange.png"/> 
+                  <h3>Celerio</h3></a></li>
+                <li><a href="celerio-x.php"><img src="assets/images/celerio-x/2orange.png"/> 
+                  <h3>Celerio X</h3></a></li>
                 <li><a href="swift.php">Swift</a></li>
               </ul>
             </li>
             <li><a href="#">Sedans</a>
               <ul class='submenu'>
-                <li><a href="dzire.php">Dzire</a></li>
+                <li><a href="dzire.php"><img src="assets/images/dzire/2-car.png"/> 
+                  <h3>Dzire</h3></a></li>
               </ul>
             </li>
             <li><a href="#"> Muvs/ Suvs</a>
               <ul class='submenu'>
-                <li><a href="s-presso.php">S-PRESSO</a></li>
-                <li><a href="ertiga.php">Ertiga</a></li>
-                <li><a href="vitara-brezza.php">Vitara Brezza</a></li>
+                <li><a href="s-presso.php">
+                  <img src="assets/images/s-presso/2-orange.png"/> 
+                  <h3>S-PRESSO</h3></a></li>
+                <li><a href="ertiga.php">
+                  <img src="assets/images/ertiga/2-RED.png"/> 
+                  <h3>Ertiga</h3>
+                </a></li>
+                <li><a href="vitara-brezza.php">
+                  <img src="assets/images/vitara-brezza/2-car.png"/> 
+                  <h3>Vitara Brezza</h3></a></li>
               </ul>
             </li>
             <li><a href="#"> Vans</a>
               <ul class='submenu'>
-                <li><a href="eeco.php">Eeco</a></li>
+                <li><a href="eeco.php">
+                  <img src="assets/images/eeco/2-car.png"/> 
+                  <h3>Eeco</h3>
+                  </a></li>
               </ul>
             </li>
            
@@ -228,5 +244,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </li>
   </ul>
 </div>
+
+
+<!-- <div class="footer-fix-mobile">
+  <ul class="sort-cut">
+    <li class="mobile-item"> 
+      <a href="our-presence-workshop.php" class="hvr-icon-wobble-horizontal">
+        <i class="mdi mdi-security-home"></i> 
+        <b class="footer-sticky1"> Find Workshop</b></a> 
+    </li>
+    <li class="mobile-item"> 
+      <a href="value-added-services.php" class="hvr-icon-wobble-horizontal">
+        <i class="mdi mdi-car-wash"></i> 
+        <b class="footer-sticky1"> Book Service</b></a> 
+    </li>
+    <li class="mobile-item"> 
+      <a href="online-booking.php" class="hvr-icon-wobble-horizontal">
+        <i class="mdi mdi-car-sports"></i> 
+        <b class="footer-sticky1">Book Your Car</b></a> 
+    </li>
+    <li class="mobile-item"> 
+      <a href="value-added-services.php" class="hvr-icon-wobble-horizontal">
+        <i class="mdi mdi-cards-playing-outline"></i> 
+        <b class="footer-sticky1">VAS Services</b></a> 
+    </li>
+    <li class="mobile-item"> 
+      <a href="enquiry.php" class="hvr-icon-wobble-horizontal">
+        <i class="mdi mdi-notification-clear-all"></i> 
+        <b class="footer-sticky1"> Enquiry </b></a> 
+    </li>
+</ul>
+</div> -->
 
 

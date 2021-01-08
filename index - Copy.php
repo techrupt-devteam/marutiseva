@@ -38,20 +38,76 @@ $title="Maruti Suzuki ARENA Car Showroom in Nashik, Nagpur | SEVA";
     <div class="row body-content">
       <div class="col-sm-12 px-0">
         <div id="carousel-example-1z" class="carousel slide carousel-fade desktop-view" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="3"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="4"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="5"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="6"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="7"></li>
+          </ol>
           <div class="carousel-inner" role="listbox"> 
-            <div class="carousel-item active">
-          <a href="alto.php"> 
-          <picture>
-              <source srcset="assets/images/slider-1.jpeg" type="image/jpg">
-              <source srcset="assets/images/slider-1.jpeg" type="image/jpeg">
-              <img class="d-block w-100 lazyload" src="assets/images/slider-1.jpeg" alt="First slide">
-          </picture>
-          
-          </a>
-        </div>
+            <!-- <div class="carousel-item">
+				<a href="alto.php"> 
+				<picture>
+				    <source srcset="assets/images/slider-1.jpeg" type="image/jpg">
+				    <source srcset="assets/images/slider-1.jpeg" type="image/jpeg">
+				    <img class="d-block w-100 lazyload" src="assets/images/slider-1.jpeg" alt="First slide">
+				</picture>
+				
+				</a>
+			</div> -->
             
-            
-            
+            <div class="carousel-item"> <a href="celerio.php">
+              <picture>
+                <source srcset="assets/images/december-offer/celerio.webp" type="image/webp">
+                <source srcset="assets/images/december-offer/celerio.jpg" type="image/jpeg">
+                <img class="d-block w-100 lazyload" src="assets/images/december-offer/celerio.jpg" alt="eight slide"> </picture>
+              </a> </div>
+            <div class="carousel-item"> <a href="celerio.php">
+              <picture>
+                <source srcset="assets/images/december-offer/celeriox.webp" type="image/webp">
+                <source srcset="assets/images/december-offer/celeriox.jpg" type="image/jpeg">
+                <img class="d-block w-100 lazyload" src="assets/images/december-offer/celeriox.jpg" alt="eight slide"> </picture>
+              </a> </div>
+            <div class="carousel-item active"> <a href="dzire.php">
+              <picture>
+                <source srcset="assets/images/december-offer/dzire.webp" type="image/webp">
+                <source srcset="assets/images/december-offer/dzire.jpg" type="image/jpeg">
+                <img class="d-block w-100 lazyload" src="assets/images/december-offer/dzire.jpg" alt="First slide"> </picture>
+              </a> </div>
+            <div class="carousel-item"> <a href="eeco.php">
+              <picture>
+                <source srcset="assets/images/december-offer/eeco.webp" type="image/webp">
+                <source srcset="assets/images/december-offer/eeco.jpg" type="image/jpeg">
+                <img class="d-block w-100 lazyload" src="assets/images/december-offer/eeco.jpg" alt="Sixth slide"> </picture>
+              </a> </div>
+            <div class="carousel-item"> <a href="ertiga.php">
+              <picture>
+                <source srcset="assets/images/december-offer/ertiga.webp" type="image/webp">
+                <source srcset="assets/images/december-offer/ertiga.jpg" type="image/jpeg">
+                <img class="d-block w-100 lazyload" src="assets/images/december-offer/ertiga.jpg" alt="Sixth slide"> </picture>
+              </a> </div>
+            <div class="carousel-item"> <a href="s-presso.php">
+              <picture>
+                <source srcset="assets/images/december-offer/s_presso.webp" type="image/webp">
+                <source srcset="assets/images/december-offer/s_presso.jpg" type="image/jpeg">
+                <img class="d-block w-100 lazyload" src="assets/images/december-offer/s_presso.jpg" alt="Third slide"> </picture>
+              </a> </div>
+            <div class="carousel-item"> <a href="swift.php">
+              <picture>
+                <source srcset="assets/images/december-offer/swift.webp" type="image/webp">
+                <source srcset="assets/images/december-offer/swift.jpg" type="image/jpeg">
+                <img class="d-block w-100 lazyload" src="assets/images/december-offer/swift.jpg" alt="seven slide"> </picture>
+              </a> </div>
+            <div class="carousel-item"> <a href="wagonr.php">
+              <picture>
+                <source srcset="assets/images/december-offer/wegnor.webp" type="image/webp">
+                <source srcset="assets/images/december-offer/wegnor.jpg" type="image/jpeg">
+                <img class="d-block w-100 lazyload" src="assets/images/december-offer/wegnor.jpg" alt="Forth slide"> </picture>
+              </a> </div>
           </div>
           <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
       </div>
@@ -143,7 +199,7 @@ $title="Maruti Suzuki ARENA Car Showroom in Nashik, Nagpur | SEVA";
   
 
   <section class="listing-area pt-100">
-    <div class="container" style="max-width: 1420px;">
+    <div class="container">
   <div id="demo" class="carousel slide" data-ride="carousel">
 
     <!-- The slideshow -->
@@ -156,7 +212,7 @@ $title="Maruti Suzuki ARENA Car Showroom in Nashik, Nagpur | SEVA";
               <div class="listing-content">
               <h3>LISTING INFORMATION</h3>
               <div class="tag">$85,000</div>
-              <h4>2021 Maruti Suzuki Dzire</h4>
+              <h4>2021 KIA SOUL XC 60</h4>
               </div>
               <ul class="listing-list">
               <li>Mileage</li>
@@ -184,7 +240,7 @@ $title="Maruti Suzuki ARENA Car Showroom in Nashik, Nagpur | SEVA";
               </div>
           </div>
           <div class="col-md-7 div-l">
-            <img src="assets/images/listing-1.jpg" class="car-slider"/>
+            <img src="assets/images/listing-1.jpeg" class="car-slider"/>
           </div>
         </div>
        
@@ -197,7 +253,7 @@ $title="Maruti Suzuki ARENA Car Showroom in Nashik, Nagpur | SEVA";
               <div class="listing-content">
               <h3>LISTING INFORMATION</h3>
               <div class="tag">$85,000</div>
-              <h4>2021  Swift dzire</h4>
+              <h4>2021 KIA SOUL XC 60</h4>
               </div>
               <ul class="listing-list">
               <li>Mileage</li>
@@ -225,7 +281,7 @@ $title="Maruti Suzuki ARENA Car Showroom in Nashik, Nagpur | SEVA";
               </div>
           </div>
           <div class="col-md-7 div-l">
-            <img src="assets/images/listing-2.jpg" class="car-slider"/>
+            <img src="assets/images/listing-2.jpeg" class="car-slider"/>
           </div>
         </div>
       </div>
@@ -237,7 +293,7 @@ $title="Maruti Suzuki ARENA Car Showroom in Nashik, Nagpur | SEVA";
               <div class="listing-content">
               <h3>LISTING INFORMATION</h3>
               <div class="tag">$85,000</div>
-              <h4>2021  Vitara Brezza</h4>
+              <h4>2021 KIA SOUL XC 60</h4>
               </div>
               <ul class="listing-list">
               <li>Mileage</li>
@@ -265,7 +321,7 @@ $title="Maruti Suzuki ARENA Car Showroom in Nashik, Nagpur | SEVA";
               </div>
           </div>
           <div class="col-md-7 div-l">
-            <img src="assets/images/listing-3.jpg" class="car-slider"/>
+            <img src="assets/images/homepage-banner4.jpg" class="car-slider"/>
           </div>
         </div>
       </div>

@@ -5,36 +5,36 @@
   }
 </style>
 
-<footer>
-<div class="container">
-  <div class="row">
-    <div class="col-md-8">
-    <div class="footer-newletter">
-      <h2>Get Updates With Latest News and offers</h2>
-   <form method="post" action="get_updates.php" >
-      <div class="newsletter-form input-group">
-        <input type="text" placeholder="Enter Email Address" name="email_id" class="col-10"  required="true" pattern="^([\w\-\.]+)@((\[([0-9]{1,3}\.){3}[0-9]{1,3}\])|(([\w\-]+\.)+)([a-zA-Z]{2,4}))$">
-        <div class="input-group-append">
-          <button name="submit"><i class="mdi mdi-chevron-right"></i></button>
-        </div>
-        <div id="element"></div>
-      </div>
-      </form>
-    </div>
-    </div>
-    <div class="col-md-4">
-    <div class="social-media">
-    <h2>Follow Us On</h2>
-          <ul>
-        <li><a href="https://www.facebook.com/sevamaruti/?fref=ts" target="_blank"><i class="mdi mdi-facebook"></i></a></li>
-            <li><a href="https://twitter.com/sevaauto" target="_blank"><i class="mdi mdi-twitter"></i></a></li>
-            <li><a href="https://www.instagram.com/seva_automotive/" target="_blank"><i class="mdi mdi-instagram"></i></a></li>
-          </ul>
-        </div>
-    </div>
-  </div>
-</div>
-  <div class="footer-links">
+<footer class="footer">
+  <div class="footer-top">
+    <div class="container">
+       <div class="row">
+          <div class="col-md-4 footer-box">
+             <img src="assets/images/icon/location.svg" width="35"/>
+             <div class="footer-box-content">
+                <h3>X-46, MIDC,Ambad, Nashik,</h3>
+                <p>Maharashtra 422010</p>
+             </div>
+          </div><!-- Box 1 end-->
+          <div class="col-md-4 footer-box">
+            <img src="assets/images/icon/phone.svg" width="35"/>
+             <div class="footer-box-content">
+                <h3 class="text-white">+91 83904 46644</h3>
+                <p class="text-white">Give us a call</p>
+             </div>
+          </div><!-- Box 2 end-->
+          <div class="col-md-4 footer-box">
+            <img src="assets/images/icon/mail.svg" width="35" style="margin-left: 35px;"/>
+             <div class="footer-box-content">
+                <h3>enquiry@marutiseva.com</h3>
+                <p>24/7 online support</p>
+             </div>
+          </div><!-- Box 3 end-->
+       </div><!-- Content row end-->
+    </div><!-- Container end-->
+ </div>
+
+  <div class="footer-links footer-main">
   <div class="container">
     <div class="row">
       <div class="col-lg-3">
@@ -43,6 +43,7 @@
             <li><a href="https://www.marutiseva.com">Home</a></li>
             <li><a href="about-us.php">About Us</a></li>
             <li><a href="our-team.php">Our Team</a></li>
+            <li><a href="schedule-services.php">Schedule Services</a></li>
             <li><a href="our-presence.php">Our Presence</a></li>            
             <li><a href="feedback.php">Feedback</a></li>
             <li><a href="disclaimer.php">Terms & Conditions</a></li>
@@ -61,6 +62,13 @@
                     <li><a href="celerio.php">Celerio</a></li>
                     <li><a href="celerio-x.php">Celerio X</a></li>
                     <li><a href="swift.php">Swift</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="mb-0"><a href="#"> Vans</a>
+                  <ul>
+                    <li class="mb-0"><a href="eeco.php">Eeco</a></li>
                   </ul>
                 </li>
               </ul>
@@ -88,19 +96,20 @@
           </div>
           <div class="col-lg-4">
             <div class="mainlinks">
-              <ul>
-                <li><a href="#"> Vans</a>
-                  <ul>
-                    <li><a href="eeco.php">Eeco</a></li>
-                  </ul>
-                </li>
-              </ul>
+              <h4> Value Added Services</h4>
+            <ul>
+              <li><a href="value-added-services.php">Value Added Services</a></li>
+              <li><a href="latest-offers.php">Latest Offers</a></li>
+              <li><a href="maruti-insurance.php">Maruti Insurance</a></li>
+              <li><a href="maruti-finance.php">Maruti Finance</a></li>
+             
+            </ul>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-lg-3 col-md-3 col-sm-3">
         <div class="mainlinks">
               <ul><li><a href="request-a-test-drive-now.php" style=" background:#2e3094; padding:5px 10px"><i class="mdi mdi-steering"></i> Request a Test Drive</a></li></ul>
@@ -136,24 +145,15 @@
             </ul>
           </div>
       </div>
-      <div class="col-lg-3">
-        <div class="mainlinks">
-         <h4>Head Office</h4>
-         <ul>
-           <li style="color:#FFF">X-46, MIDC,Ambad, Nashik, Maharashtra 422010 Nashik</li>
-            <li><a href="tel:8390446644">+91 83904 46644</a></li>
-            <li><a href="mailto:enquiry@marutiseva.com">enquiry@marutiseva.com</a></li>
-        </ul>
-        </div>
-       </div>
-    </div>
+      
+    </div> -->
   </div>
   </div>
   <div class="footer-bottom">
     <div class="container-fluid">
       <div class="clearfix">
         <div class="text-center"> 
-    <div>© 2020 Seva Automotive|Design by <a href="http://hohtechlabs.com/" target="_blank">HOH Tech Labs Pvt. Ltd.</a></div>
+    <div>© 2020 Seva Automotive|Design by <a href="#" target="_blank">Techrupt</a></div>
     </div>
       </div>
     </div>
@@ -169,10 +169,13 @@
 
 
 
+
 <script src="assets/js/jquery-3.3.1.slim.min.js"></script> 
-<script src="assets/js/popper.min.js"></script>
+
+<!-- <script src="assets/js/popper.min.js"></script> -->
 <script src="assets/lib/js/bootstrap.min.js"></script> 
 <script src="assets/lib/js/bootstrap.bundle.min.js"></script> 
+
 <script src="assets/js/car-carousel.js" type="text/javascript"></script> 
 <script src="assets/js/megamenu.js"></script> 
 <script src="assets/js/main.js"></script>
