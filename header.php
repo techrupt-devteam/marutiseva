@@ -23,6 +23,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-N44C4LH');</script>
 <!-- End Google Tag Manager -->
+<style>
+
+  
+</style>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -54,9 +58,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
            <div class="col-lg-3 col-md-3 text-right">
               <div class="top-bar-social-icon ml-auto">
                  <ul>
-                    <li><a href="https://www.facebook.com/sevamaruti/?fref=ts" target="_blank"><i class="mdi mdi-facebook"></i></a></li>
-                    <li><a href="https://twitter.com/sevaauto" target="_blank"><i class="mdi mdi-twitter"></i></a></li>
-                    <li><a  href="https://www.instagram.com/seva_automotive/" target="_blank"><i class="mdi mdi-instagram"></i></a></li>
+                    <li><a href="#"><i class="mdi mdi-facebook"></i></a></li>
+                    <li><a href="#"><i class="mdi mdi-twitter"></i></a></li>
+                    <li><a href="#"><i class="mdi mdi-instagram"></i></a></li>
                  </ul>
               </div> <!-- Social End -->
            </div><!-- Col End -->
@@ -115,62 +119,61 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <li><a href="our-presence.php">Our Presence</a></li>
           </ul>
         </li>
-        <li><a href="#">Our Products</a>
-          <ul>
-            <li><a href="#"> Hatchbacks</a>
-              <ul class='submenu'>
-                <li>
-                  <a href="alto.php">
-                    <img src="assets/images/alto/Alto800_Blazing_Red_new.png"/> 
-                    <h3>Alto</h3>
-                  </a>
-                </li>
-                <li><a href="wagonr.php">
-                  <img src="assets/images/wagonr/2-model-BLUE.png"/> 
-                  <h3>Wagon R</h3>
-                  </a></li>
-                <li><a href="celerio.php">  <img src="assets/images/celerio/orange.png"/> 
-                  <h3>Celerio</h3></a></li>
-                <li><a href="celerio-x.php"><img src="assets/images/celerio-x/2orange.png"/> 
-                  <h3>Celerio X</h3></a></li>
-                <li><a href="swift.php">Swift</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Sedans</a>
-              <ul class='submenu'>
-                <li><a href="dzire.php"><img src="assets/images/dzire/2-car.png"/> 
-                  <h3>Dzire</h3></a></li>
-              </ul>
-            </li>
-            <li><a href="#"> Muvs/ Suvs</a>
-              <ul class='submenu'>
-                <li><a href="s-presso.php">
-                  <img src="assets/images/s-presso/2-orange.png"/> 
-                  <h3>S-PRESSO</h3></a></li>
-                <li><a href="ertiga.php">
-                  <img src="assets/images/ertiga/2-RED.png"/> 
-                  <h3>Ertiga</h3>
-                </a></li>
-                <li><a href="vitara-brezza.php">
-                  <img src="assets/images/vitara-brezza/2-car.png"/> 
-                  <h3>Vitara Brezza</h3></a></li>
-              </ul>
-            </li>
-            <li><a href="#"> Vans</a>
-              <ul class='submenu'>
-                <li><a href="eeco.php">
-                  <img src="assets/images/eeco/2-car.png"/> 
-                  <h3>Eeco</h3>
-                  </a></li>
-              </ul>
-            </li>
-           
-              <div class="clearfix"></div>
-              <div class="display_table">
-              <a href="request-a-test-drive-now.php" class="nav-booktestDrive">Request a Test Drive</a>
-              </div>
-      </ul>
-     </li>
+        <li class="dropdown mega-dropdown active">
+			    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>				
+				<div class="dropdown-menu mega-dropdown-menu">
+                    <div class="container-fluid">
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li class="active"><a href="#men" role="tab" data-toggle="tab">Men</a></li>
+                        <li><a href="#women" role="tab" data-toggle="tab">Women</a></li>
+                        <li><a href="#kids" role="tab" data-toggle="tab">Kids</a></li>
+                        <li><a href="#sports" role="tab" data-toggle="tab">Sports</a></li>
+                     </ul>    
+    				    <!-- Tab panes -->
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="men">
+                            <ul class="nav-list list-inline">
+                                <li><a href="#"><img src="http://content.nike.com/content/dam/one-nike/globalAssets/menu_header_images/OneNike_Global_Nav_Icons_Running.png"><span>Running</span></a></li>
+                                <li><a href="#"><img src="http://content.nike.com/content/dam/one-nike/globalAssets/menu_header_images/OneNike_Global_Nav_Icons_Basketball.png"><span>Basketball</span></a></li>
+                                <li><a href="#"><img src="http://content.nike.com/content/dam/one-nike/globalAssets/menu_header_images/OneNike_Global_Nav_Icons_Football.png"><span>Football</span></a></li>
+                                <li><a href="#"><img src="http://content.nike.com/content/dam/one-nike/globalAssets/menu_header_images/OneNike_Global_Nav_Icons_Soccer.png"><span>Soccer</span></a></li>
+                                <li><a href="#"><img src="http://content.nike.com/content/dam/one-nike/globalAssets/menu_header_images/OneNike_Global_Nav_Icons_MensTraining.png"><span>Men's Training</span></a></li>
+                                <li><a href="#"><img src="http://content.nike.com/content/dam/one-nike/globalAssets/menu_header_images/OneNike_Global_Nav_Icons_WomensTraining.png"><span>Women's Training</span></a></li>
+                            </ul>
+                          </div>
+                          <div class="tab-pane" id="women">
+                            <ul class="nav-list list-inline">
+                                <li><a href="#"><img src="http://content.nike.com/content/dam/one-nike/globalAssets/menu_header_images/OneNike_Global_Nav_Icons_Running.png"><span>Running</span></a></li>
+                                <li><a href="#"><img src="http://content.nike.com/content/dam/one-nike/globalAssets/menu_header_images/OneNike_Global_Nav_Icons_Basketball.png"><span>Basketball</span></a></li>
+                                <li><a href="#"><img src="http://content.nike.com/content/dam/one-nike/globalAssets/menu_header_images/OneNike_Global_Nav_Icons_Football.png"><span>Football</span></a></li>
+                                <li><a href="#"><img src="http://content.nike.com/content/dam/one-nike/globalAssets/menu_header_images/OneNike_Global_Nav_Icons_Soccer.png"><span>Soccer</span></a></li>                                
+                            </ul>
+                          </div>
+                          <div class="tab-pane" id="kids">
+                            <ul class="nav-list list-inline">
+                                <li><a href="#"><img src="http://content.nike.com/content/dam/one-nike/globalAssets/menu_header_images/OneNike_Global_Nav_Icons_Running.png"><span>Running</span></a></li>
+                                <li><a href="#"><img src="http://content.nike.com/content/dam/one-nike/globalAssets/menu_header_images/OneNike_Global_Nav_Icons_Basketball.png"><span>Basketball</span></a></li>
+                                <li><a href="#"><img src="http://content.nike.com/content/dam/one-nike/globalAssets/menu_header_images/OneNike_Global_Nav_Icons_Football.png"><span>Football</span></a></li>
+                                <li><a href="#"><img src="http://content.nike.com/content/dam/one-nike/globalAssets/menu_header_images/OneNike_Global_Nav_Icons_Soccer.png"><span>Soccer</span></a></li>
+                                <li><a href="#"><img src="http://content.nike.com/content/dam/one-nike/globalAssets/menu_header_images/OneNike_Global_Nav_Icons_MensTraining.png"><span>Men's Training</span></a></li>
+                                <li><a href="#"><img src="http://content.nike.com/content/dam/one-nike/globalAssets/menu_header_images/OneNike_Global_Nav_Icons_WomensTraining.png"><span>Women's Training</span></a></li>
+                            </ul>
+                          </div>
+                          <div class="tab-pane" id="sports">
+                            <ul class="nav-list list-inline">                                
+                                <li><a href="#"><img src="http://content.nike.com/content/dam/one-nike/globalAssets/menu_header_images/OneNike_Global_Nav_Icons_Basketball.png"><span>Basketball</span></a></li>
+                                <li><a href="#"><img src="http://content.nike.com/content/dam/one-nike/globalAssets/menu_header_images/OneNike_Global_Nav_Icons_Football.png"><span>Football</span></a></li>
+                                <li><a href="#"><img src="http://content.nike.com/content/dam/one-nike/globalAssets/menu_header_images/OneNike_Global_Nav_Icons_Soccer.png"><span>Soccer</span></a></li>
+                                <li><a href="#"><img src="http://content.nike.com/content/dam/one-nike/globalAssets/menu_header_images/OneNike_Global_Nav_Icons_MensTraining.png"><span>Men's Training</span></a></li>
+                                <li><a href="#"><img src="http://content.nike.com/content/dam/one-nike/globalAssets/menu_header_images/OneNike_Global_Nav_Icons_WomensTraining.png"><span>Women's Training</span></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                    </div>
+                    <!-- Nav tabs -->
+                                   
+				</div>				
+			</li>
          <li class="rel"><a href="#" class="a">Workshop </a>
           <ul class='submenu'>
               <li><a href="schedule-services.php" class="a">Schedule Service / Accident Repair</a></li>
@@ -244,36 +247,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </li>
   </ul>
 </div>
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');       
+        }
+    );
+});
 
-
-<!-- <div class="footer-fix-mobile">
-  <ul class="sort-cut">
-    <li class="mobile-item"> 
-      <a href="our-presence-workshop.php" class="hvr-icon-wobble-horizontal">
-        <i class="mdi mdi-security-home"></i> 
-        <b class="footer-sticky1"> Find Workshop</b></a> 
-    </li>
-    <li class="mobile-item"> 
-      <a href="value-added-services.php" class="hvr-icon-wobble-horizontal">
-        <i class="mdi mdi-car-wash"></i> 
-        <b class="footer-sticky1"> Book Service</b></a> 
-    </li>
-    <li class="mobile-item"> 
-      <a href="online-booking.php" class="hvr-icon-wobble-horizontal">
-        <i class="mdi mdi-car-sports"></i> 
-        <b class="footer-sticky1">Book Your Car</b></a> 
-    </li>
-    <li class="mobile-item"> 
-      <a href="value-added-services.php" class="hvr-icon-wobble-horizontal">
-        <i class="mdi mdi-cards-playing-outline"></i> 
-        <b class="footer-sticky1">VAS Services</b></a> 
-    </li>
-    <li class="mobile-item"> 
-      <a href="enquiry.php" class="hvr-icon-wobble-horizontal">
-        <i class="mdi mdi-notification-clear-all"></i> 
-        <b class="footer-sticky1"> Enquiry </b></a> 
-    </li>
-</ul>
-</div> -->
+</script>
 
 
