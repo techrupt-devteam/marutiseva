@@ -178,7 +178,81 @@ $title="Maruti Suzuki ARENA Car Showroom in Nashik, Nagpur | SEVA";
 		</div>
     </div>
   </div>
-
+  <section id="ts-feature" class="ts-feature pb-0">
+    <div class="container">
+       <div class="row">
+          <div class="col-md-12">
+             <h2 class="section-title">
+                <span>Why</span> Choose Us
+             </h2>
+          </div><!-- Col end -->
+       </div><!-- Row End -->
+       <div class="row">
+          <div class="col-lg-8 col-md-12">
+             <div class="row">
+                <div class="col-md-6">
+                   <div class="ts-feature-wrapper">
+                      <div class="feature-single">
+                         <span class="feature-icon">
+                            <i class="mdi mdi-approval"></i>
+                         </span><!-- feature icon -->
+                         <div class="feature-content">
+                            <h3><span>Expert</span> Mechanics</h3>
+                            <p>Most of the vehicles get damaged just because of maintenance neglect you take</p>
+                         </div><!-- feature content end -->
+                      </div><!-- feature single end -->
+                   </div><!-- feature wrapper end -->
+                </div><!-- Col end -->
+                <div class="col-md-6">
+                   <div class="ts-feature-wrapper">
+                      <div class="feature-single">
+                         <span class="feature-icon">
+                          <i class="mdi mdi-approval"></i>
+                         </span><!-- feature icon -->
+                         <div class="feature-content">
+                            <h3><span>Reasonable</span> Price</h3>
+                            <p>Most of the vehicles get damaged just because of maintenance neglect you take</p>
+                         </div><!-- feature content end -->
+                      </div><!-- feature single end -->
+                   </div><!-- feature wrapper end -->
+                </div><!-- Col end -->
+             </div><!-- Content Row End -->
+             <div class="gap-35"></div>
+             <div class="row">
+                <div class="col-md-6">
+                   <div class="ts-feature-wrapper">
+                      <div class="feature-single">
+                         <span class="feature-icon">
+                          <i class="mdi mdi-approval"></i>
+                         </span><!-- feature icon -->
+                         <div class="feature-content">
+                            <h3><span>Trusted</span> by 5000 Clients</h3>
+                            <p>Most of the vehicles get damaged just because of maintenance neglect you take</p>
+                         </div><!-- feature content end -->
+                      </div><!-- feature single end -->
+                   </div><!-- feature wrapper end -->
+                </div><!-- Col end -->
+                <div class="col-md-6">
+                   <div class="ts-feature-wrapper">
+                      <div class="feature-single">
+                         <span class="feature-icon">
+                          <i class="mdi mdi-approval"></i>
+                         </span><!-- feature icon -->
+                         <div class="feature-content">
+                            <h3><span>Fast</span> feature Delivery</h3>
+                            <p>Most of the vehicles get damaged just because of maintenance neglect you take</p>
+                         </div><!-- feature content end -->
+                      </div><!-- feature single end -->
+                   </div><!-- feature wrapper end -->
+                </div><!-- Col end -->
+             </div><!-- Content Row End -->
+          </div><!-- Col End -->
+       </div><!-- Row End -->
+    </div><!-- Container end -->
+    <div class="feature-img">
+       <img class="img-fluid" src="images/why_choose_us_img.png" alt="">
+    </div><!-- feature Img -->
+ </section>
 
     <!--Our Range Start -->
 <div class="container-fluid">
@@ -407,6 +481,44 @@ $title="Maruti Suzuki ARENA Car Showroom in Nashik, Nagpur | SEVA";
     </div> 
  <!--Our Range End-->
 
+ <section id="ts-newsletter" class="ts-newsletter">
+  <div class="container-fluid no-padding">
+     <div class="row">
+        <div class="col-md-6 align-self-center">
+           <div class="box-skew-area-left bg-red">
+              <div class="box-skew-sm-left" data-eqcss-0-2-parent="" data-eqcss-1-2-parent="">
+                 <h2 class="column-title text-white" data-eqcss-0-2-prev="" data-eqcss-1-2-prev="">
+                    <span>Subscribe</span> For Newsletter
+                 </h2>
+                 <form class="contactMe newsletter-form" action="contactme/newsletter-form.php" method="POST" enctype="multipart/form-data" data-eqcss-0-2="" data-eqcss-1-2="">
+                    <section>
+                       <div class="form-row">
+                          <div class="col-md-12 newsletter-box">
+                             <input type="email" name="email" data-displayname="E-mail" class="field" placeholder="Your Email" required="">
+                             <button class="btn btn-bordered" type="submit" data-sending="Sending..." data-text="<i class=&quot;fa fa-send&quot;></i>"><i class="fa fa-send"></i></button>
+                          </div>
+                       </div> <!-- Form Row End -->    
+                       <div class="msg"></div>
+                    </section> <!-- Ection end -->
+                 </form><!-- END copy section:Service Contact Form -->
+              </div> <!-- Newsletter Content end -->
+           </div> <!-- Newsletter Left end -->
+        </div> <!-- Col End -->
+        <div class="col-md-6">
+           <div class="box-skew-area-right">
+              <div class="box-skew-sm-right">
+                    <img src="images/we_offer_img.jpg" alt="">
+                 <h2 class="column-title text-white no-border">
+                    <small>We offer you</small>
+                    <span>The</span> Best Auto Repair Service
+                 </h2>
+                 <a href="#" class="btn btn-primary">Contact US</a>
+              </div> <!-- Newsletter content end -->
+           </div> <!-- Newsletter right end -->
+        </div> <!-- Col end -->
+     </div> <!-- Row End -->
+  </div> <!-- Container fluid end -->
+</section>
   <div class="container-fluid">
 
   <div class="row">

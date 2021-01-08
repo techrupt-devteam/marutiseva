@@ -32,21 +32,45 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div id="preloader">
     <div id="preloader__status">&nbsp;</div>
 </div>
+<div class="ts-top-bar">
+  <div class="top-bar-angle">
+     <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4"></div>
+           <div class="col-lg-5 col-md-5">
+              <div class="top-bar-event ts-top">
+                <ul class="list-inline">
+                  <li class="topbar_item topbar_item_type-contact_timing">
+                    <img src="assets/images/icon/phone.svg" style="width: 20px;"/> 
+                     <a href="tel:8390446644">+91 83904 46644</a>
+                  </li>
+                    <li class="topbar_item topbar_item_type-email">
+                      <img src="assets/images/icon/mail.svg" style="width: 20px;"/>
+                      <a href="mailto:enquiry@marutiseva.com">enquiry@marutiseva.com</a>
+                    </li>
+                  </ul>
+              </div> <!-- Top Bar Text End -->
+           </div> <!-- Col End -->
+           <div class="col-lg-3 col-md-3 text-right">
+              <div class="top-bar-social-icon ml-auto">
+                 <ul>
+                    <li><a href="#"><i class="mdi mdi-facebook"></i></a></li>
+                    <li><a href="#"><i class="mdi mdi-twitter"></i></a></li>
+                    <li><a href="#"><i class="mdi mdi-instagram"></i></a></li>
+                 </ul>
+              </div> <!-- Social End -->
+           </div><!-- Col End -->
+        </div> <!-- Row End -->
+     </div> <!-- Container End -->
+  </div> <!-- Angle Bar End -->
+</div>
+
 <div class="topbar d-none d-md-block">
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-6 col-sm-6 align-self-center">
         <div class="topbar-left text-left">
-          <ul class="list-inline">
-            <li class="topbar_item topbar_item_type-contact_timing">
-              <img src="assets/images/phone.svg" style="width: 20px;"/> 
-               <a href="tel:8390446644">+91 83904 46644</a>
-            </li>
-              <li class="topbar_item topbar_item_type-email">
-                <img src="assets/images/mail.svg" style="width: 20px;"/>
-                <a href="mailto:enquiry@marutiseva.com">enquiry@marutiseva.com</a>
-              </li>
-            </ul>
+          
           </div>
         </div>
         <div class="col-lg-6 col-sm-6">
@@ -72,19 +96,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
       </div>
     </div> 
-<header id="header_nav" class="header sticky-top">
-  <div class="menu-container"> 
+<header id="header_nav" class="header sticky-top ">
+  <div class="menu-container header-angle"> 
     <a href="https://www.marutiseva.com" class="logo">
-    <picture>
-            <source srcset="assets/images/logo.webp" type="image/webp">
-            <source srcset="assets/images/logo.png" type="image/png">
-                  <img src="assets/images/logo.png" class="lazyload">
-
-        </picture>
-    </a>
+      <picture>
+              <source srcset="assets/images/logo.webp" type="image/webp">
+              <source srcset="assets/images/logo.png" type="image/png">
+                    <img src="assets/images/logo.png" class="lazyload">
+  
+          </picture>
+      </a>
     <div class="menu">
       <ul id="menu" class='menu'>
-       
         <li class="rel"><a href="#">About Us </a>
           <ul class='submenu'>
             <li><a href="about-us.php">About Us</a></li>
@@ -96,7 +119,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <ul>
             <li><a href="#"> Hatchbacks</a>
               <ul class='submenu'>
-                <li><a href="alto.php">Alto</a></li>
+                <li>
+                  <a href="alto.php">
+                    <img src="assets/images/alto/Alto800_Blazing_Red_new.png"/> 
+                    <h3>Alto</h3>
+                  </a>
+                </li>
                 <li><a href="wagonr.php">Wagon R</a></li>
                 <li><a href="celerio.php">Celerio</a></li>
                 <li><a href="celerio-x.php">Celerio X</a></li>
@@ -145,17 +173,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <li><a href="latest-offers.php">Latest Offer</a></li>
         <li>
           <a href="online-booking.php" class="booknowbtn"><i class="mdi mdi-car"></i>Book Now</a></li>
-        <?php session_start(); 
+        <!-- <?php session_start(); 
         if(isset($_GET['nexa-logo'])){
           $_SESSION['link']= 'nexalink';
           }
-        ?>
+        ?> -->
         <li><a href="enquiry.php">Enquiry</a></li>
       </ul>
     </div>
   </div>
 </header>
-<nav class="cd-stretchy-nav">
+<!-- <nav class="cd-stretchy-nav">
     <a class="cd-nav-trigger" href="#0">
       <span aria-hidden="true"></span>
     </a>
@@ -165,7 +193,40 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <li><a href="enquiry.php"><span>Enquiry</span></a></li>
     </ul>
     <span aria-hidden="true" class="stretchy-nav-bg"></span>
-  </nav>
+  </nav> -->
 
 
 <!--Enquire Now-->
+
+
+<div class="sticky-container d-none d-md-block">
+    <ul class="sticky">
+      <li class="hover-item"> 
+        <a href="our-presence-workshop.php" class="hvr-icon-wobble-horizontal">
+          <i class="mdi mdi-security-home"></i> 
+          <b class="footer-sticky1"> Find Workshop</b></a> 
+      </li>
+      <li class="hover-item"> 
+        <a href="value-added-services.php" class="hvr-icon-wobble-horizontal">
+          <i class="mdi mdi-car-wash"></i> 
+          <b class="footer-sticky1"> Book Service</b></a> 
+      </li>
+      <li class="hover-item"> 
+        <a href="online-booking.php" class="hvr-icon-wobble-horizontal">
+          <i class="mdi mdi-car-sports"></i> 
+          <b class="footer-sticky1">Book Your Car</b></a> 
+      </li>
+      <li class="hover-item"> 
+        <a href="value-added-services.php" class="hvr-icon-wobble-horizontal">
+          <i class="mdi mdi-cards-playing-outline"></i> 
+          <b class="footer-sticky1">VAS Services</b></a> 
+      </li>
+      <li class="hover-item"> 
+        <a href="enquiry.php" class="hvr-icon-wobble-horizontal">
+          <i class="mdi mdi-notification-clear-all"></i> 
+          <b class="footer-sticky1"> Enquiry </b></a> 
+      </li>
+  </ul>
+</div>
+
+
