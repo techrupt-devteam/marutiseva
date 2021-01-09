@@ -1,20 +1,18 @@
 <?php    
 $title="Maruti Suzuki ARENA Car Showroom in Nashik, Nagpur | SEVA";	
-
  $pgDesc="Visit SEVA Automotive's Maruti Suzuki ARENA Car Showroom in Nashik, Nagpur for the best Maruti Suzuki s presso, Brezza, Swift Dzire, Ertiga & Swift price";
  $pgKeywords="maruti suzuki, maruti suzuki car, Car, brezza, swift dzire, ertiga, alto 800, wagon r, alto k10, maruti, celerio, swift price, vitara brezza, swift dzire price, maruti suzuki swift, ertiga price, ertiga car, maruti suzuki s presso, maruti x presso, maruti suzuki arena, maruti showrooms near me, maruti cars, maruti suzuki ertiga, suzuki ertiga, maruti swift, wagon r 2020, swift vdi, dzire,Maruti Suzuki Showroom Nagpur, Maruti Suzuki Nagpur, Maruti Suzuki Showroom Nashik, Maruti Suzuki ARENA Nagpur, ARENA Nashik";
  include 'header.php'; 
 ?>
 <main>
   <!--Starting BOX-->
-  
   <div id="boxes">
     <div style="display: none;" id="dialog" class="window">
       <div class="website_intro">
         <div class="welcomesect">
           <div class="row"> 
             <!--  <div class="col-md-6 text-left">Welcome to Seva</div> -->
-            <div class="col-md-4 col-6 ml-auto text-right">
+            <div class="col-md-4 ml-auto text-md-right">
               <picture>
                 <source srcset="assets/images/marutilogo.webp" type="image/webp">
                 <source srcset="assets/images/marutilogo.png" type="image/png">
@@ -28,7 +26,20 @@ $title="Maruti Suzuki ARENA Car Showroom in Nashik, Nagpur | SEVA";
           </div>
         </div>
         <h2>Select your Drive</h2>
-        <div class="other-sites" id="popupfoot"> <a class="close agree" href="https://marutiseva.com/"> <img src="assets/images/intro-maruti-suzki-arena.svg" class="lazyload"  /> </a> <a href="https://nexa.marutiseva.com/"> <img src="assets/images/intro-nexa.svg" class="lazyload"/> </a> <a href="https://truevalue.marutiseva.com/"> <img src="assets/images/intro-true-value.png" /> </a> <a href="https://commercial.marutiseva.com/"> <img src="assets/images/intro-commercial.svg" class="lazyload"  /> </a> </div>
+        <div class="other-sites" id="popupfoot"> 
+          <a class="close agree" href="https://marutiseva.com/"> 
+            <img src="assets/images/intro-maruti-suzki-arena.svg" class="lazyload"  /> 
+          </a> 
+          <a href="https://nexa.marutiseva.com/"> 
+            <img src="assets/images/intro-nexa.svg" class="lazyload"/> 
+          </a> 
+          <a href="https://truevalue.marutiseva.com/"> 
+            <img src="assets/images/intro-true-value.png" /> 
+          </a> 
+          <a href="https://commercial.marutiseva.com/"> 
+            <img src="assets/images/intro-commercial.svg" class="lazyload"  /> 
+          </a> 
+        </div>
       </div>
     </div>
     <div id="mask"></div>
@@ -38,25 +49,38 @@ $title="Maruti Suzuki ARENA Car Showroom in Nashik, Nagpur | SEVA";
     <div class="row body-content">
       <div class="col-sm-12 px-0">
         <div id="carousel-example-1z" class="carousel slide carousel-fade desktop-view" data-ride="carousel">
-          <div class="carousel-inner" role="listbox"> 
-            <div class="carousel-item active">
-          <a href="alto.php"> 
-          <picture>
-              <source srcset="assets/images/slider-1.jpeg" type="image/jpg">
-              <source srcset="assets/images/slider-1.jpeg" type="image/jpeg">
-              <img class="d-block w-100 lazyload" src="assets/images/slider-1.jpeg" alt="First slide">
-          </picture>
-          
-          </a>
-        </div>
-            
-            
-            
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active"> <a href="alto.php">
+              <picture>
+                <source srcset="assets/images/slider-1.jpeg" type="image/jpg">
+                <source srcset="assets/images/slider-1.jpeg" type="image/jpeg">
+                <img class="d-block w-100 lazyload" src="assets/images/slider-1.jpeg" alt="First slide"> </picture>
+              </a> </div>
           </div>
           <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
       </div>
     </div>
   </div>
+
+  <!-- <section class="about-history">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+
+        </div>
+        <div class="col-md-6">
+          <div>
+            <div class="tt-block-title text-left tt-block-title-border 	">
+              <h1 class="tt-title">
+                One of the Greatest<br>Pleasures <span class="tt-defaul-color">You Can Have</span>	
+              </h1>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </section> -->
+
   <section id="ts-feature" class="ts-feature pb-0">
     <div class="container">
       <div class="row">
@@ -140,150 +164,134 @@ $title="Maruti Suzuki ARENA Car Showroom in Nashik, Nagpur | SEVA";
     <div class="feature-img"> <img class="img-fluid" src="assets/images/workshop/Wardha-hinganghat.png" alt=""> </div>
     <!-- feature Img --> 
   </section>
-  
-
   <section class="listing-area pt-100">
     <div class="container" style="max-width: 1420px;">
-  <div id="demo" class="carousel slide" data-ride="carousel">
-
-    <!-- The slideshow -->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="row">
-          <div class="col-md-5 div-r">
-            <div class="listing-box-item">
-              <div class="listing-item">
-              <div class="listing-content">
-              <h3>LISTING INFORMATION</h3>
-              <div class="tag">$85,000</div>
-              <h4>2021 Maruti Suzuki Dzire</h4>
+      <div id="demo" class="carousel slide" data-ride="carousel"> 
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-5 div-r">
+                <div class="listing-box-item">
+                  <div class="listing-item">
+                    <div class="listing-content">
+                      <h3>LISTING INFORMATION</h3>
+                      <div class="tag">$85,000</div>
+                      <h4>2021 Maruti Suzuki Dzire</h4>
+                    </div>
+                    <ul class="listing-list">
+                      <li>Mileage</li>
+                      <li><span>: 128569 miles</span></li>
+                      <li>Body Type</li>
+                      <li><span>: Sedan</span></li>
+                      <li>Doors</li>
+                      <li><span>: Two Door</span></li>
+                      <li>Engine</li>
+                      <li><span>: 2.4L I4 16V MPFI DOHC</span></li>
+                      <li>Transmission</li>
+                      <li><span>: 4-Speed Automatic</span></li>
+                      <li>Drive Train</li>
+                      <li><span>: Front Wheel Drive</span></li>
+                      <li>Exterior Color</li>
+                      <li><span>:Green</span></li>
+                      <li>Interior Color</li>
+                      <li><span>: Beige</span></li>
+                      <li>Condition</li>
+                      <li><span>: New</span></li>
+                      <li>Fuel</li>
+                      <li><span>: GAS</span></li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <ul class="listing-list">
-              <li>Mileage</li>
-              <li><span>: 128569 miles</span></li>
-              <li>Body Type</li>
-              <li><span>: Sedan</span></li>
-              <li>Doors</li>
-              <li><span>: Two Door</span></li>
-              <li>Engine</li>
-              <li><span>: 2.4L I4 16V MPFI DOHC</span></li>
-              <li>Transmission</li>
-              <li><span>: 4-Speed Automatic</span></li>
-              <li>Drive Train</li>
-              <li><span>: Front Wheel Drive</span></li>
-              <li>Exterior Color</li>
-              <li><span>:Green</span></li>
-              <li>Interior Color</li>
-              <li><span>: Beige</span></li>
-              <li>Condition</li>
-              <li><span>: New</span></li>
-              <li>Fuel</li>
-              <li><span>: GAS</span></li>
-              </ul>
-              </div>
-              </div>
+              <div class="col-md-7 div-l"> <img src="assets/images/listing-1.jpg" class="car-slider"/> </div>
+            </div>
           </div>
-          <div class="col-md-7 div-l">
-            <img src="assets/images/listing-1.jpg" class="car-slider"/>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-5 div-r">
+                <div class="listing-box-item">
+                  <div class="listing-item">
+                    <div class="listing-content">
+                      <h3>LISTING INFORMATION</h3>
+                      <div class="tag">$85,000</div>
+                      <h4>2021  Swift dzire</h4>
+                    </div>
+                    <ul class="listing-list">
+                      <li>Mileage</li>
+                      <li><span>: 128569 miles</span></li>
+                      <li>Body Type</li>
+                      <li><span>: Sedan</span></li>
+                      <li>Doors</li>
+                      <li><span>: Two Door</span></li>
+                      <li>Engine</li>
+                      <li><span>: 2.4L I4 16V MPFI DOHC</span></li>
+                      <li>Transmission</li>
+                      <li><span>: 4-Speed Automatic</span></li>
+                      <li>Drive Train</li>
+                      <li><span>: Front Wheel Drive</span></li>
+                      <li>Exterior Color</li>
+                      <li><span>:Green</span></li>
+                      <li>Interior Color</li>
+                      <li><span>: Beige</span></li>
+                      <li>Condition</li>
+                      <li><span>: New</span></li>
+                      <li>Fuel</li>
+                      <li><span>: GAS</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-7 div-l"> <img src="assets/images/listing-2.jpg" class="car-slider"/> </div>
+            </div>
           </div>
-        </div>
-       
-      </div>
-      <div class="carousel-item">
-        <div class="row">
-          <div class="col-md-5 div-r">
-            <div class="listing-box-item">
-              <div class="listing-item">
-              <div class="listing-content">
-              <h3>LISTING INFORMATION</h3>
-              <div class="tag">$85,000</div>
-              <h4>2021  Swift dzire</h4>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-5 div-r">
+                <div class="listing-box-item">
+                  <div class="listing-item">
+                    <div class="listing-content">
+                      <h3>LISTING INFORMATION</h3>
+                      <div class="tag">$85,000</div>
+                      <h4>2021  Vitara Brezza</h4>
+                    </div>
+                    <ul class="listing-list">
+                      <li>Mileage</li>
+                      <li><span>: 128569 miles</span></li>
+                      <li>Body Type</li>
+                      <li><span>: Sedan</span></li>
+                      <li>Doors</li>
+                      <li><span>: Two Door</span></li>
+                      <li>Engine</li>
+                      <li><span>: 2.4L I4 16V MPFI DOHC</span></li>
+                      <li>Transmission</li>
+                      <li><span>: 4-Speed Automatic</span></li>
+                      <li>Drive Train</li>
+                      <li><span>: Front Wheel Drive</span></li>
+                      <li>Exterior Color</li>
+                      <li><span>:Green</span></li>
+                      <li>Interior Color</li>
+                      <li><span>: Beige</span></li>
+                      <li>Condition</li>
+                      <li><span>: New</span></li>
+                      <li>Fuel</li>
+                      <li><span>: GAS</span></li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <ul class="listing-list">
-              <li>Mileage</li>
-              <li><span>: 128569 miles</span></li>
-              <li>Body Type</li>
-              <li><span>: Sedan</span></li>
-              <li>Doors</li>
-              <li><span>: Two Door</span></li>
-              <li>Engine</li>
-              <li><span>: 2.4L I4 16V MPFI DOHC</span></li>
-              <li>Transmission</li>
-              <li><span>: 4-Speed Automatic</span></li>
-              <li>Drive Train</li>
-              <li><span>: Front Wheel Drive</span></li>
-              <li>Exterior Color</li>
-              <li><span>:Green</span></li>
-              <li>Interior Color</li>
-              <li><span>: Beige</span></li>
-              <li>Condition</li>
-              <li><span>: New</span></li>
-              <li>Fuel</li>
-              <li><span>: GAS</span></li>
-              </ul>
-              </div>
-              </div>
-          </div>
-          <div class="col-md-7 div-l">
-            <img src="assets/images/listing-2.jpg" class="car-slider"/>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="row">
-          <div class="col-md-5 div-r">
-            <div class="listing-box-item">
-              <div class="listing-item">
-              <div class="listing-content">
-              <h3>LISTING INFORMATION</h3>
-              <div class="tag">$85,000</div>
-              <h4>2021  Vitara Brezza</h4>
-              </div>
-              <ul class="listing-list">
-              <li>Mileage</li>
-              <li><span>: 128569 miles</span></li>
-              <li>Body Type</li>
-              <li><span>: Sedan</span></li>
-              <li>Doors</li>
-              <li><span>: Two Door</span></li>
-              <li>Engine</li>
-              <li><span>: 2.4L I4 16V MPFI DOHC</span></li>
-              <li>Transmission</li>
-              <li><span>: 4-Speed Automatic</span></li>
-              <li>Drive Train</li>
-              <li><span>: Front Wheel Drive</span></li>
-              <li>Exterior Color</li>
-              <li><span>:Green</span></li>
-              <li>Interior Color</li>
-              <li><span>: Beige</span></li>
-              <li>Condition</li>
-              <li><span>: New</span></li>
-              <li>Fuel</li>
-              <li><span>: GAS</span></li>
-              </ul>
-              </div>
-              </div>
-          </div>
-          <div class="col-md-7 div-l">
-            <img src="assets/images/listing-3.jpg" class="car-slider"/>
+              <div class="col-md-7 div-l"> <img src="assets/images/listing-3.jpg" class="car-slider"/> </div>
+            </div>
           </div>
         </div>
+        
+        <!-- Left and right controls -->
+        <div class="flaticon-left-arrow"> <a class="carousel-control-prev" href="#demo" data-slide="prev"> <span class="carousel-control-prev-icon"></span> </a> <a class="carousel-control-next" href="#demo" data-slide="next"> <span class="carousel-control-next-icon"></span> </a> </div>
       </div>
     </div>
+  </section>
   
-    <!-- Left and right controls -->
-    <div class="flaticon-left-arrow"> 
-    <a class="carousel-control-prev" href="#demo" data-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </a>
-    <a class="carousel-control-next" href="#demo" data-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </a>
-  </div>
-  </div>
-  </div>
-</section>
-
   <!--Our Range Start -->
   <div class="container-fluid">
     <div class="my-5">
@@ -447,9 +455,10 @@ $title="Maruti Suzuki ARENA Car Showroom in Nashik, Nagpur | SEVA";
             <div class="slider_CarDetails">
               <h4>Ertiga</h4>
               <!--<div class="d-flex justify-content-center">
-      <a href="ertiga.php" class="button button-purple button-180 triggerBookAShowRoomVisitButton">Explore Car Details</a>
-      <a href="assets/images/ertiga/Ertiga_Brand_Brochure.pdf" class="button button-red button-180 bookAServiceAppointmentButton">Download Brochure</a>
-      </div>--> 
+                <a href="ertiga.php" class="button button-purple button-180 triggerBookAShowRoomVisitButton">Explore Car Details</a>
+                <a href="assets/images/ertiga/Ertiga_Brand_Brochure.pdf" class="button button-red button-180 bookAServiceAppointmentButton">Download Brochure</a>
+                </div>
+              --> 
             </div>
           </div>
           <div class="item">
@@ -467,9 +476,10 @@ $title="Maruti Suzuki ARENA Car Showroom in Nashik, Nagpur | SEVA";
             <div class="slider_CarDetails">
               <h4>Vitara Brezza</h4>
               <!--<div class="d-flex justify-content-center">
-      <a href="vitara-brezza.php" class="button button-purple button-180 triggerBookAShowRoomVisitButton">Explore Car Details</a>
-      <a href="assets/images/vitara-brezza/Vitara-Brezza_Brochure.pdf" class="button button-red button-180 bookAServiceAppointmentButton">Download Brochure</a>
-      </div>--> 
+              <a href="vitara-brezza.php" class="button button-purple button-180 triggerBookAShowRoomVisitButton">Explore Car Details</a>
+              <a href="assets/images/vitara-brezza/Vitara-Brezza_Brochure.pdf" class="button button-red button-180 bookAServiceAppointmentButton">Download Brochure</a>
+              </div>
+            --> 
             </div>
           </div>
           <div class="item">
@@ -487,9 +497,10 @@ $title="Maruti Suzuki ARENA Car Showroom in Nashik, Nagpur | SEVA";
             <div class="slider_CarDetails">
               <h4>EECO</h4>
               <!--<div class="d-flex justify-content-center">
-      <a href="eeco.php" class="button button-purple button-180 triggerBookAShowRoomVisitButton">Explore Car Details</a>
-      <a href="assets/images/eeco/Eeco_Brand_brochure.pdf" class="button button-red button-180 bookAServiceAppointmentButton">Download Brochure</a>
-      </div>--> 
+              <a href="eeco.php" class="button button-purple button-180 triggerBookAShowRoomVisitButton">Explore Car Details</a>
+              <a href="assets/images/eeco/Eeco_Brand_brochure.pdf" class="button button-red button-180 bookAServiceAppointmentButton">Download Brochure</a>
+              </div>
+            --> 
             </div>
           </div>
         </div>
@@ -508,12 +519,9 @@ $title="Maruti Suzuki ARENA Car Showroom in Nashik, Nagpur | SEVA";
       </div>
     </div>
   </div>
-
+  
   <!--Our Range End-->
-
-
-
-
+  
   <section id="ts-newsletter" class="ts-newsletter">
     <div class="container-fluid no-padding">
       <div class="row">
