@@ -37,7 +37,7 @@
   <div class="footer-links footer-main">
   <div class="container">
     <div class="row">
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-6">
         <div class="mainlinks">
           <ul>
             <li><a href="https://www.marutiseva.com">Home</a></li>
@@ -52,7 +52,7 @@
       </div>
       <div class="col-lg-9">
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-6">
             <div class="mainlinks">
               <ul>
                 <li><a href="#"> Hatchbacks</a>
@@ -74,7 +74,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-6">
             <div class="mainlinks">
               <ul>
                 <li><a href="#">Sedans</a>

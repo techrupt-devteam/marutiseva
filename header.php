@@ -36,8 +36,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="top-bar-angle">
      <div class="container">
         <div class="row">
-          <div class="col-lg-4 col-md-4"></div>
-           <div class="col-lg-5 col-md-5">
+          <div class="col-lg-4 col-md-4  d-none d-md-block"></div>
+           <div class="col-lg-5 col-md-5 col-8 pr-0">
               <div class="top-bar-event ts-top">
                 <ul class="list-inline">
                   <li class="topbar_item topbar_item_type-contact_timing">
@@ -51,7 +51,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   </ul>
               </div> <!-- Top Bar Text End -->
            </div> <!-- Col End -->
-           <div class="col-lg-3 col-md-3 text-right">
+           <div class="col-lg-3 col-md-3 col-4 pl-0 text-right">
               <div class="top-bar-social-icon ml-auto">
                  <ul>
                     <li><a href="https://www.facebook.com/sevamaruti/?fref=ts" target="_blank"><i class="mdi mdi-facebook"></i></a></li>

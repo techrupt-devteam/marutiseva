@@ -521,7 +521,7 @@ $title="Maruti Suzuki ARENA Car Showroom in Nashik, Nagpur | SEVA";
           <div class="box-skew-area-left bg-blue">
             <div class="box-skew-sm-left footer-newletter">
               <h2 class="column-title text-white"> <span>Subscribe</span> For Newsletter </h2>
-              <form method="post" action="get_updates.php" style="max-width: 350px;">
+              <form method="post" action="get_updates.php" style="max-width: 320px;">
                 <div class="newsletter-form input-group">
                   <input type="text" placeholder="Enter Email Address" name="email_id" class="col-10"  required="true" pattern="^([\w\-\.]+)@((\[([0-9]{1,3}\.){3}[0-9]{1,3}\])|(([\w\-]+\.)+)([a-zA-Z]{2,4}))$">
                   <div class="input-group-append">
