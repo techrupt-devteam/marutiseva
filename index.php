@@ -62,108 +62,340 @@ $title="Maruti Suzuki ARENA Car Showroom in Nashik, Nagpur | SEVA";
     </div>
   </div>
 
-  <!-- <section class="about-history">
+  <section class="feature-car gray-bg page-section-ptb">
     <div class="container">
-      <div class="row">
-        <div class="col-md-6">
+     <div class="row">
+      <div class="col-md-12">
+        <div class="section-title">
+           <span>Check out our recent cars</span>
+           <h2>Feature Car </h2>
+           <div class="separator"></div>
+        </div>
+      </div>
+     </div>
+     <div class="row">
+      <div class="col-md-12">
+        <div id="blogCarousel" class="carousel slide" data-ride="carousel">
 
-        </div>
-        <div class="col-md-6">
-          <div>
-            <div class="tt-block-title text-left tt-block-title-border 	">
-              <h1 class="tt-title">
-                One of the Greatest<br>Pleasures <span class="tt-defaul-color">You Can Have</span>	
-              </h1>
-            </div>
-          </div>  
-        </div>
-      </div>
-    </div>
-  </section> -->
+          <ol class="carousel-indicators">
+              <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#blogCarousel" data-slide-to="1"></li>
+          </ol>
 
-  <section id="ts-feature" class="ts-feature pb-0">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="section-title"> <span>Why</span> Choose Us </h2>
-        </div>
-        <!-- Col end --> 
-      </div>
-      <!-- Row End -->
-      <div class="row">
-        <div class="col-lg-8 col-md-12">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="ts-feature-wrapper">
-                <div class="feature-single"> <span class="feature-icon"> <img src="assets/images/icon/Mechanics.svg" width="55"/> </span><!-- feature icon -->
-                  <div class="feature-content">
-                    <h3><span>Expert</span> Mechanics</h3>
-                    <p>Most of the vehicles get damaged just because of maintenance neglect you take</p>
+          <!-- Carousel items -->
+          <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                  <div class="row">
+                      <div class="col-md-3 col-6">
+                           <div class="car-item">
+                             <div class="car-image">
+                              <img src="assets/images/swift/exterior1.jpg" alt="Image" style="max-width:100%;">
+                              <div class="car-overlay-banner">
+                              <ul> 
+                                <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                                <li><a href="#"><i class="fa fa-cart-arrow-down"></i></a></li>
+                               </ul>
+                             </div>
+                            </div> 
+                              <div class="car-list">
+                                <ul class="list-inline">
+                                  <li><i class="fa fa-registered"></i> 2017</li>
+                                  <li><i class="fa fa-cog"></i> Manual </li>
+                                  <li><i class="fa fa-cart-arrow-down"></i> 6,000 mi</li>
+                                </ul>
+                              </div>
+                              <div class="car-content">
+                                <div class="star d-none d-md-block">
+                                <i class="fa fa-star orange-color"></i>
+                                  <i class="fa fa-star orange-color"></i>
+                                  <i class="fa fa-star orange-color"></i>
+                                  <i class="fa fa-star orange-color"></i>
+                                  <i class="fa fa-star-o orange-color"></i>
+                                </div>
+                                <a href="#">GTA 5 Lowriders DLC</a>
+                                <div class="separator d-none d-md-block"></div>
+                                <div class="price">
+                                  <span class="old-price"><i class="fa fa-inr" aria-hidden="true"></i> 45,768</span>
+                                  <span class="new-price"><i class="fa fa-inr" aria-hidden="true"></i> 41,398 </span>
+                                </div>
+                              </div>
+                          </div>  
+                      </div>
+                      <div class="col-md-3 col-6">
+                        <div class="car-item">
+                          <div class="car-image">
+                           <img src="assets/images/vitara-brezza/exterior1.jpg" alt="Image" style="max-width:100%;">
+                           <div class="car-overlay-banner">
+                           <ul> 
+                             <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                             <li><a href="#"><i class="fa fa-cart-arrow-down"></i></a></li>
+                            </ul>
+                          </div>
+                         </div> 
+                           <div class="car-list">
+                             <ul class="list-inline">
+                               <li><i class="fa fa-registered"></i> 2017</li>
+                               <li><i class="fa fa-cog"></i> Manual </li>
+                               <li><i class="fa fa-cart-arrow-down"></i> 6,000 mi</li>
+                             </ul>
+                           </div>
+                           <div class="car-content">
+                             <div class="star d-none d-md-block">
+                             <i class="fa fa-star orange-color"></i>
+                               <i class="fa fa-star orange-color"></i>
+                               <i class="fa fa-star orange-color"></i>
+                               <i class="fa fa-star orange-color"></i>
+                               <i class="fa fa-star-o orange-color"></i>
+                             </div>
+                             <a href="#">GTA 5 Lowriders DLC</a>
+                             <div class="separator d-none d-md-block"></div>
+                             <div class="price">
+                               <span class="old-price"><i class="fa fa-inr" aria-hidden="true"></i> 45,768</span>
+                               <span class="new-price"><i class="fa fa-inr" aria-hidden="true"></i> 41,398 </span>
+                             </div>
+                           </div>
+                        
+                       </div> 
+                      </div>
+                      <div class="col-md-3 col-6">
+                        <div class="car-item">
+                          <div class="car-image">
+                            <img src="assets/images/ignis/top-mobile.jpg" alt="Image" style="max-width:100%;">
+                           <div class="car-overlay-banner">
+                           <ul> 
+                             <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                             <li><a href="#"><i class="fa fa-cart-arrow-down"></i></a></li>
+                            </ul>
+                          </div>
+                         </div> 
+                           <div class="car-list">
+                             <ul class="list-inline">
+                               <li><i class="fa fa-registered"></i> 2017</li>
+                               <li><i class="fa fa-cog"></i> Manual </li>
+                               <li><i class="fa fa-cart-arrow-down"></i> 6,000 mi</li>
+                             </ul>
+                           </div>
+                           <div class="car-content">
+                             <div class="star d-none d-md-block">
+                             <i class="fa fa-star orange-color"></i>
+                               <i class="fa fa-star orange-color"></i>
+                               <i class="fa fa-star orange-color"></i>
+                               <i class="fa fa-star orange-color"></i>
+                               <i class="fa fa-star-o orange-color"></i>
+                             </div>
+                             <a href="#">GTA 5 Lowriders DLC</a>
+                             <div class="separator d-none d-md-block"></div>
+                             <div class="price">
+                               <span class="old-price"><i class="fa fa-inr" aria-hidden="true"></i> 45,768</span>
+                               <span class="new-price"><i class="fa fa-inr" aria-hidden="true"></i> 41,398 </span>
+                             </div>
+                           </div>
+                        
+                       </div> 
+                      </div>
+                      <div class="col-md-3 col-6">
+                        <div class="car-item">
+                          <div class="car-image">
+                            <img src="assets/images/alto/exterior-3.jpg" alt="Image" style="max-width:100%;">
+                           <div class="car-overlay-banner">
+                           <ul> 
+                             <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                             <li><a href="#"><i class="fa fa-cart-arrow-down"></i></a></li>
+                            </ul>
+                          </div>
+                         </div> 
+                           <div class="car-list">
+                             <ul class="list-inline">
+                               <li><i class="fa fa-registered"></i> 2017</li>
+                               <li><i class="fa fa-cog"></i> Manual </li>
+                               <li><i class="fa fa-cart-arrow-down"></i> 6,000 mi</li>
+                             </ul>
+                           </div>
+                           <div class="car-content">
+                             <div class="star d-none d-md-block">
+                             <i class="fa fa-star orange-color"></i>
+                               <i class="fa fa-star orange-color"></i>
+                               <i class="fa fa-star orange-color"></i>
+                               <i class="fa fa-star orange-color"></i>
+                               <i class="fa fa-star-o orange-color"></i>
+                             </div>
+                             <a href="#">GTA 5 Lowriders DLC</a>
+                             <div class="separator d-none d-md-block"></div>
+                             <div class="price">
+                               <span class="old-price"><i class="fa fa-inr" aria-hidden="true"></i> 45,768</span>
+                               <span class="new-price"><i class="fa fa-inr" aria-hidden="true"></i> 41,398 </span>
+                             </div>
+                           </div>
+                        
+                       </div> 
+                      </div>
                   </div>
-                  <!-- feature content end --> 
-                </div>
-                <!-- feature single end --> 
+                  <!--.row-->
               </div>
-              <!-- feature wrapper end --> 
-            </div>
-            <!-- Col end -->
-            <div class="col-md-6">
-              <div class="ts-feature-wrapper">
-                <div class="feature-single"> <span class="feature-icon"> <img src="assets/images/icon/Price.svg" width="55"/> </span><!-- feature icon -->
-                  <div class="feature-content">
-                    <h3><span>Reasonable</span> Price</h3>
-                    <p>Most of the vehicles get damaged just because of maintenance neglect you take</p>
+              <!--.item-->
+
+              <div class="carousel-item">
+                  <div class="row">
+                      <div class="col-md-3 col-6">
+                        <div class="car-item">
+                          <div class="car-image">
+                            <img src="assets/images/alto/exterior-3.jpg" alt="Image" style="max-width:100%;">
+                           <div class="car-overlay-banner">
+                           <ul> 
+                             <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                             <li><a href="#"><i class="fa fa-cart-arrow-down"></i></a></li>
+                            </ul>
+                          </div>
+                         </div> 
+                           <div class="car-list">
+                             <ul class="list-inline">
+                               <li><i class="fa fa-registered"></i> 2017</li>
+                               <li><i class="fa fa-cog"></i> Manual </li>
+                               <li><i class="fa fa-cart-arrow-down"></i> 6,000 mi</li>
+                             </ul>
+                           </div>
+                           <div class="car-content">
+                             <div class="star d-none d-md-block">
+                             <i class="fa fa-star orange-color"></i>
+                               <i class="fa fa-star orange-color"></i>
+                               <i class="fa fa-star orange-color"></i>
+                               <i class="fa fa-star orange-color"></i>
+                               <i class="fa fa-star-o orange-color"></i>
+                             </div>
+                             <a href="#">GTA 5 Lowriders DLC</a>
+                             <div class="separator d-none d-md-block"></div>
+                             <div class="price">
+                               <span class="old-price"><i class="fa fa-inr" aria-hidden="true"></i> 45,768</span>
+                               <span class="new-price"><i class="fa fa-inr" aria-hidden="true"></i> 41,398 </span>
+                             </div>
+                           </div>
+                        
+                       </div> 
+                      </div>
+                      <div class="col-md-3 col-6">
+                        <div class="car-item">
+                          <div class="car-image">
+                            <img src="assets/images/wagonr/wegonr.jpg" alt="Image" style="max-width:100%;">
+                           <div class="car-overlay-banner">
+                           <ul> 
+                             <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                             <li><a href="#"><i class="fa fa-cart-arrow-down"></i></a></li>
+                            </ul>
+                          </div>
+                         </div> 
+                           <div class="car-list">
+                             <ul class="list-inline">
+                               <li><i class="fa fa-registered"></i> 2017</li>
+                               <li><i class="fa fa-cog"></i> Manual </li>
+                               <li><i class="fa fa-cart-arrow-down"></i> 6,000 mi</li>
+                             </ul>
+                           </div>
+                           <div class="car-content">
+                             <div class="star d-none d-md-block">
+                             <i class="fa fa-star orange-color"></i>
+                               <i class="fa fa-star orange-color"></i>
+                               <i class="fa fa-star orange-color"></i>
+                               <i class="fa fa-star orange-color"></i>
+                               <i class="fa fa-star-o orange-color"></i>
+                             </div>
+                             <a href="#">GTA 5 Lowriders DLC</a>
+                             <div class="separator d-none d-md-block"></div>
+                             <div class="price">
+                               <span class="old-price"><i class="fa fa-inr" aria-hidden="true"></i> 45,768</span>
+                               <span class="new-price"><i class="fa fa-inr" aria-hidden="true"></i> 41,398 </span>
+                             </div>
+                           </div>
+                        
+                       </div> 
+                      </div>
+                      <div class="col-md-3 col-6">
+                        <div class="car-item">
+                          <div class="car-image">
+                           <img src="assets/images/s-presso/s-presso.jpg" alt="Image" style="max-width:100%;">
+                           <div class="car-overlay-banner">
+                           <ul> 
+                             <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                             <li><a href="#"><i class="fa fa-cart-arrow-down"></i></a></li>
+                            </ul>
+                          </div>
+                         </div> 
+                           <div class="car-list">
+                             <ul class="list-inline">
+                               <li><i class="fa fa-registered"></i> 2017</li>
+                               <li><i class="fa fa-cog"></i> Manual </li>
+                               <li><i class="fa fa-cart-arrow-down"></i> 6,000 mi</li>
+                             </ul>
+                           </div>
+                           <div class="car-content">
+                             <div class="star d-none d-md-block">
+                             <i class="fa fa-star orange-color"></i>
+                               <i class="fa fa-star orange-color"></i>
+                               <i class="fa fa-star orange-color"></i>
+                               <i class="fa fa-star orange-color"></i>
+                               <i class="fa fa-star-o orange-color"></i>
+                             </div>
+                             <a href="#">GTA 5 Lowriders DLC</a>
+                             <div class="separator d-none d-md-block"></div>
+                             <div class="price">
+                               <span class="old-price"><i class="fa fa-inr" aria-hidden="true"></i> 45,768</span>
+                               <span class="new-price"><i class="fa fa-inr" aria-hidden="true"></i> 41,398 </span>
+                             </div>
+                           </div>
+                        
+                       </div> 
+                      </div>
+                      <div class="col-md-3 col-6">
+                        <div class="car-item">
+                          <div class="car-image">
+                           <img src="assets/images/exterior1.jpg" alt="Image" style="max-width:100%;">
+                           <div class="car-overlay-banner">
+                           <ul> 
+                             <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                             <li><a href="#"><i class="fa fa-cart-arrow-down"></i></a></li>
+                            </ul>
+                          </div>
+                         </div> 
+                           <div class="car-list">
+                             <ul class="list-inline">
+                               <li><i class="fa fa-registered"></i> 2017</li>
+                               <li><i class="fa fa-cog"></i> Manual </li>
+                               <li><i class="fa fa-cart-arrow-down"></i> 6,000 mi</li>
+                             </ul>
+                           </div>
+                           <div class="car-content">
+                             <div class="star">
+                             <i class="fa fa-star orange-color"></i>
+                               <i class="fa fa-star orange-color"></i>
+                               <i class="fa fa-star orange-color"></i>
+                               <i class="fa fa-star orange-color"></i>
+                               <i class="fa fa-star-o orange-color"></i>
+                             </div>
+                             <a href="#">GTA 5 Lowriders DLC</a>
+                             <div class="separator d-none d-md-block"></div>
+                             <div class="price">
+                               <span class="old-price"><i class="fa fa-inr" aria-hidden="true"></i> 45,768</span>
+                               <span class="new-price"><i class="fa fa-inr" aria-hidden="true"></i> 41,398 </span>
+                             </div>
+                           </div>
+                        
+                       </div> 
+                      </div>
                   </div>
-                  <!-- feature content end --> 
-                </div>
-                <!-- feature single end --> 
+                  <!--.row-->
               </div>
-              <!-- feature wrapper end --> 
-            </div>
-            <!-- Col end --> 
+              <!--.item-->
+
           </div>
-          <!-- Content Row End -->
-          <div class="gap-35"></div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="ts-feature-wrapper">
-                <div class="feature-single"> <span class="feature-icon"> <img src="assets/images/icon/Trusted.svg" width="55"/> </span><!-- feature icon -->
-                  <div class="feature-content">
-                    <h3><span>Trusted</span> by 5000 Clients</h3>
-                    <p>Most of the vehicles get damaged just because of maintenance neglect you take</p>
-                  </div>
-                  <!-- feature content end --> 
-                </div>
-                <!-- feature single end --> 
-              </div>
-              <!-- feature wrapper end --> 
-            </div>
-            <!-- Col end -->
-            <div class="col-md-6">
-              <div class="ts-feature-wrapper">
-                <div class="feature-single"> <span class="feature-icon"> <img src="assets/images/icon/Fast.svg" width="55"/> </span><!-- feature icon -->
-                  <div class="feature-content">
-                    <h3><span>Fast</span> feature Delivery</h3>
-                    <p>Most of the vehicles get damaged just because of maintenance neglect you take</p>
-                  </div>
-                  <!-- feature content end --> 
-                </div>
-                <!-- feature single end --> 
-              </div>
-              <!-- feature wrapper end --> 
-            </div>
-            <!-- Col end --> 
-          </div>
-          <!-- Content Row End --> 
-        </div>
-        <!-- Col End --> 
+          <!--.carousel-inner-->
       </div>
-      <!-- Row End --> 
+      </div>
+     </div>
     </div>
-    <!-- Container end -->
-    <div class="feature-img"> <img class="img-fluid" src="assets/images/workshop/Wardha-hinganghat.png" alt=""> </div>
-    <!-- feature Img --> 
   </section>
+
+ 
+ 
   <section class="listing-area pt-100">
     <div class="container" style="max-width: 1420px;">
       <div id="demo" class="carousel slide" data-ride="carousel"> 
@@ -182,25 +414,25 @@ $title="Maruti Suzuki ARENA Car Showroom in Nashik, Nagpur | SEVA";
                     </div>
                     <ul class="listing-list">
                       <li>Mileage</li>
-                      <li><span>: 128569 miles</span></li>
+                      <li><span>  128569 miles</span></li>
                       <li>Body Type</li>
-                      <li><span>: Sedan</span></li>
+                      <li><span>  Sedan</span></li>
                       <li>Doors</li>
-                      <li><span>: Two Door</span></li>
+                      <li><span>  Two Door</span></li>
                       <li>Engine</li>
-                      <li><span>: 2.4L I4 16V MPFI DOHC</span></li>
+                      <li><span>  2.4L I4 16V MPFI DOHC</span></li>
                       <li>Transmission</li>
-                      <li><span>: 4-Speed Automatic</span></li>
+                      <li><span>  4-Speed Automatic</span></li>
                       <li>Drive Train</li>
-                      <li><span>: Front Wheel Drive</span></li>
+                      <li><span>  Front Wheel Drive</span></li>
                       <li>Exterior Color</li>
-                      <li><span>:Green</span></li>
+                      <li><span> Green</span></li>
                       <li>Interior Color</li>
-                      <li><span>: Beige</span></li>
+                      <li><span>  Beige</span></li>
                       <li>Condition</li>
-                      <li><span>: New</span></li>
+                      <li><span>  New</span></li>
                       <li>Fuel</li>
-                      <li><span>: GAS</span></li>
+                      <li><span>  GAS</span></li>
                     </ul>
                   </div>
                 </div>
@@ -220,25 +452,25 @@ $title="Maruti Suzuki ARENA Car Showroom in Nashik, Nagpur | SEVA";
                     </div>
                     <ul class="listing-list">
                       <li>Mileage</li>
-                      <li><span>: 128569 miles</span></li>
+                      <li><span>  128569 miles</span></li>
                       <li>Body Type</li>
-                      <li><span>: Sedan</span></li>
+                      <li><span>  Sedan</span></li>
                       <li>Doors</li>
-                      <li><span>: Two Door</span></li>
+                      <li><span>  Two Door</span></li>
                       <li>Engine</li>
-                      <li><span>: 2.4L I4 16V MPFI DOHC</span></li>
+                      <li><span>  2.4L I4 16V MPFI DOHC</span></li>
                       <li>Transmission</li>
-                      <li><span>: 4-Speed Automatic</span></li>
+                      <li><span>  4-Speed Automatic</span></li>
                       <li>Drive Train</li>
-                      <li><span>: Front Wheel Drive</span></li>
+                      <li><span>  Front Wheel Drive</span></li>
                       <li>Exterior Color</li>
-                      <li><span>:Green</span></li>
+                      <li><span> Green</span></li>
                       <li>Interior Color</li>
-                      <li><span>: Beige</span></li>
+                      <li><span>  Beige</span></li>
                       <li>Condition</li>
-                      <li><span>: New</span></li>
+                      <li><span>  New</span></li>
                       <li>Fuel</li>
-                      <li><span>: GAS</span></li>
+                      <li><span>  GAS</span></li>
                     </ul>
                   </div>
                 </div>
@@ -258,25 +490,25 @@ $title="Maruti Suzuki ARENA Car Showroom in Nashik, Nagpur | SEVA";
                     </div>
                     <ul class="listing-list">
                       <li>Mileage</li>
-                      <li><span>: 128569 miles</span></li>
+                      <li><span>  128569 miles</span></li>
                       <li>Body Type</li>
-                      <li><span>: Sedan</span></li>
+                      <li><span>  Sedan</span></li>
                       <li>Doors</li>
-                      <li><span>: Two Door</span></li>
+                      <li><span>  Two Door</span></li>
                       <li>Engine</li>
-                      <li><span>: 2.4L I4 16V MPFI DOHC</span></li>
+                      <li><span>  2.4L I4 16V MPFI DOHC</span></li>
                       <li>Transmission</li>
-                      <li><span>: 4-Speed Automatic</span></li>
+                      <li><span>  4-Speed Automatic</span></li>
                       <li>Drive Train</li>
-                      <li><span>: Front Wheel Drive</span></li>
+                      <li><span>  Front Wheel Drive</span></li>
                       <li>Exterior Color</li>
-                      <li><span>:Green</span></li>
+                      <li><span> Green</span></li>
                       <li>Interior Color</li>
-                      <li><span>: Beige</span></li>
+                      <li><span>  Beige</span></li>
                       <li>Condition</li>
-                      <li><span>: New</span></li>
+                      <li><span>  New</span></li>
                       <li>Fuel</li>
-                      <li><span>: GAS</span></li>
+                      <li><span>  GAS</span></li>
                     </ul>
                   </div>
                 </div>
@@ -291,7 +523,130 @@ $title="Maruti Suzuki ARENA Car Showroom in Nashik, Nagpur | SEVA";
       </div>
     </div>
   </section>
-  
+ 
+
+   <section id="ts-feature" class="custom-block-3 white-bg page-section-pb">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="title">
+            <h1>about Seva</h1>
+          </div>
+          <div class="content">
+            <h2 class="text-red">10</h2>
+            <strong>Everything you need to build an amazing dealership automotive responsive website. </strong>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          </div>
+        <div class="row no-gutters">
+         <div class="col-md-4">
+           <div class="feature-box-3">
+            <div class="icon">
+              <img src="assets/images/icon/special-coupons.svg"/>
+            </div>
+            <div class="content">
+              <h6>Special Coupons  & Offers</h6>
+            </div>
+           </div>
+          </div>
+          <div class="col-md-4">
+           <div class="feature-box-3">
+            <div class="icon">
+              <img src="assets/images/icon/Personalised.svg"/>
+            </div>
+            <div class="content">
+              <h6>Personalised accounts</h6>
+            </div>
+           </div>
+          </div>
+          <div class="col-md-4">
+            <div class="feature-box-3">
+              <div class="icon">
+                <img src="assets/images/icon/instant-repair.svg"/>
+              </div>
+             <div class="content">
+               <h6>Instant repair cost estimates</h6>
+             </div>
+            </div>
+           </div>
+        </div>
+      </div>
+        <div class="col-md-6">
+          <div class="overimg-layout">
+            <img src="assets/images/icon/head-office.jpeg" class="img-fluid"/>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- <section id="ts-feature" class="ts-feature pb-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="section-title"> <span>Why</span> Choose Us </h2>
+        </div>
+       
+      </div>
+     
+      <div class="row">
+        <div class="col-lg-8 col-md-12">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="ts-feature-wrapper">
+                <div class="feature-single"> <span class="feature-icon"> <img src="assets/images/icon/Mechanics.svg" width="55"/> </span>
+                  <div class="feature-content">
+                    <h3><span>Expert</span> Mechanics</h3>
+                    <p>Most of the vehicles get damaged just because of maintenance neglect you take</p>
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="ts-feature-wrapper">
+                <div class="feature-single"> <span class="feature-icon"> <img src="assets/images/icon/Price.svg" width="55"/> </span>
+                  <div class="feature-content">
+                    <h3><span>Reasonable</span> Price</h3>
+                    <p>Most of the vehicles get damaged just because of maintenance neglect you take</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+          <div class="gap-35"></div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="ts-feature-wrapper">
+                <div class="feature-single"> <span class="feature-icon"> <img src="assets/images/icon/Trusted.svg" width="55"/> </span>
+                  <div class="feature-content">
+                    <h3><span>Trusted</span> by 5000 Clients</h3>
+                    <p>Most of the vehicles get damaged just because of maintenance neglect you take</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="ts-feature-wrapper">
+                <div class="feature-single"> <span class="feature-icon"> <img src="assets/images/icon/Fast.svg" width="55"/> </span>
+                  <div class="feature-content">
+                    <h3><span>Fast</span> feature Delivery</h3>
+                    <p>Most of the vehicles get damaged just because of maintenance neglect you take</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+       
+      </div>
+    </div>
+    <div class="feature-img"> <img class="img-fluid" src="assets/images/workshop/Wardha-hinganghat.png" alt=""> </div>
+  </section> -->
+
   <!--Our Range Start -->
   <div class="container-fluid">
     <div class="my-5">
@@ -555,12 +910,13 @@ $title="Maruti Suzuki ARENA Car Showroom in Nashik, Nagpur | SEVA";
           </div>
           <!-- Newsletter right end --> 
         </div>
-        <!-- Col end --> 
+       
       </div>
       <!-- Row End --> 
     </div>
     <!-- Container fluid end --> 
   </section>
+  
   <div class="container-fluid">
     <div class="row"> 
       

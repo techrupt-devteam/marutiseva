@@ -16,6 +16,8 @@
 <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" href="assets/css/custom.css">
 <link href="assets/css/materialdesignicons.min.css" rel="stylesheet" type="text/css">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],

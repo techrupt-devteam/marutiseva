@@ -147,10 +147,19 @@
     </div>
   </div>
   <div class="footer-bottom">
-    <div class="container-fluid">
-      <div class="clearfix">
-        <div class="text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
           <div>© 2020 Seva Automotive|Design by <a href="#" target="_blank">Techrupt</a></div>
+        </div>
+        <div class="col-md-4 text-md-right">
+         <div class="social-media text-md-right"> 
+          <ul>
+            <li><a href="https://www.facebook.com/sevamaruti/?fref=ts" target="_blank"><i class="mdi mdi-facebook"></i></a></li>
+              <li><a href="https://twitter.com/sevaauto" target="_blank"><i class="mdi mdi-twitter"></i></a></li>
+              <li><a href="https://www.instagram.com/seva_automotive/" target="_blank"><i class="mdi mdi-instagram"></i></a></li>
+            </ul>
+          </div> 
         </div>
       </div>
     </div>
